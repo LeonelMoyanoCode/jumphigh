@@ -6,7 +6,7 @@ Este proyecto universitario consiste en el desarrollo de un librojuego interacti
 
 El librojuego está dividido en tres partes principales:
 
-Página Principal (index.html):
+# Página Principal (index.html):
 
 * Información introductoria del librojuego.
   
@@ -16,14 +16,14 @@ Página Principal (index.html):
 
   ![Vista previa del librojuego](multimedia/indexjuego.jpg)
 
-Página del Librojuego (librojuego.html):
+# Página del Librojuego (librojuego.html):
   
 * Historia interactiva con opciones para avanzar en la narrativa.
 * Múltiples capítulos con al menos cuatro finales diferentes.
 * Formulario visual para registrar el puntaje del jugador.
   ![Vista previa del librojuego](multimedia/librojuego.jpg)
 
- Página de Administración (admin.html):
+# Página de Administración (admin.html):
 
 * Panel exclusivo para el administrador con una bienvenida personalizada.
 * Sección de ABM de capítulos:
