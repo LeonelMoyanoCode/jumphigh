@@ -23,14 +23,14 @@ Página Principal (index.html):
 * Alta, baja y modificación de capítulos (formularios solo visuales).
 * Navegación para regresar a la página principal.
 * Página del Librojuego (librojuego.html):
-* ![Vista previa del librojuego](multimedia/adminjuego)
+* ![Vista previa del librojuego](multimedia/adminjuego.jpg)
   
 Pagina del Librojuego (librojuego.html)
 
 * Historia interactiva con opciones para avanzar en la narrativa.
 * Múltiples capítulos con al menos cuatro finales diferentes.
 * Formulario visual para registrar el puntaje del jugador.
-* ![Vista previa del librojuego](multimedia/librojuego)
+* ![Vista previa del librojuego](multimedia/librojuego.jpg)
 
 # ✨ Tecnologías Utilizadas
 
