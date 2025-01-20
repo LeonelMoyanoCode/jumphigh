@@ -14,7 +14,7 @@ Página Principal (index.html):
 
 * Historial de puntajes más altos obtenidos por los jugadores.
 
-* ![Vista previa del librojuego](multimedia/indexjuego.jpg)
+  ![Vista previa del librojuego](multimedia/indexjuego.jpg)
 
  Página de Administración (admin.html):
 
@@ -23,14 +23,14 @@ Página Principal (index.html):
 * Alta, baja y modificación de capítulos (formularios solo visuales).
 * Navegación para regresar a la página principal.
 * Página del Librojuego (librojuego.html):
-* ![Vista previa del librojuego](multimedia/adminjuego.jpg)
+  ![Vista previa del librojuego](multimedia/adminjuego.jpg)
   
 Pagina del Librojuego (librojuego.html)
 
 * Historia interactiva con opciones para avanzar en la narrativa.
 * Múltiples capítulos con al menos cuatro finales diferentes.
 * Formulario visual para registrar el puntaje del jugador.
-* ![Vista previa del librojuego](multimedia/librojuego.jpg)
+  ![Vista previa del librojuego](multimedia/librojuego.jpg)
 
 # ✨ Tecnologías Utilizadas
 
