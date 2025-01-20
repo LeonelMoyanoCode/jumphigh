@@ -1,0 +1,212 @@
+
+*{
+    margin:0;
+    box-sizing:border-box;
+  }
+  body{
+  
+    margin: 0 auto;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fjalla+One&display=swap');
+  
+  h1 {
+     font-family: "Fjalla One", serif;
+     font-size: 2rem;
+     font-weight: 600;
+     font-style: normal;
+  }
+  
+  h2 {
+     font-family: "Cantarell", serif;
+     font-size: 1rem;
+     font-weight: 400;
+     font-style: normal;
+  }
+  h3{
+  font-family: "Fjalla One",serif;
+   font-weight: 400;
+   font-size: 2rem;
+   margin-top: 20px;
+   text-shadow: #00a1a1be 2px 2px 4px;
+   margin: 10px auto
+  }
+  
+  h4{
+  font-family: "Cantarell",serif;
+   text-align: center;
+   font-weight: 400;
+   font-size: 1.2rem;
+   text-shadow: #00a1a1ef 2px 2px 4px;
+   margin:  auto 20px auto 30px
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    width: 100%;
+    background-image: url('../multimedia/space.jpg');
+    background-size: cover; 
+    background-position: center;
+  }
+  /*nav*/
+  .nav__container {
+    display: flex;
+    justify-content: start; 
+    padding: 1rem;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .nav__logo img {
+   height: 6rem; 
+  }
+  .bi-arrow-left-square-fill {
+    font-size: 2.5rem;
+    padding: 1.25rem;
+  }
+  .grid-layout {
+    display: grid;
+    gap: 20px;
+    max-width: 1200px ;
+    width: 85%;
+    height: 100%;
+    margin: 0 auto 2rem auto ;
+  }
+  
+  .card {
+   border: 1px solid #000000;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgb(0, 0, 0);
+   text-align: center;
+  }
+  .card h3 {
+  margin: 20px 5px 20px 5px;
+  
+  }
+
+  form {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0  5rem 1rem 5rem;
+    border-radius: 5px;
+  }
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #555;
+  }
+  .home-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #333;
+    text-decoration: none;
+  }
+  .home-link:hover {
+    text-decoration: underline;
+  }
+  #modify-chapter, #add-chapter, #delete-chapter{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.521);
+    margin-bottom: 10%;
+    background-color: #ccc;
+  }
+  [type ="submit" ]{
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: #0051ff;
+
+  }
+  #modify-chapter-id, #modify-chapter-title, #modify-chapter-content, #new-chapter-title, #new-chapter-content{
+    font-family: "Cantarell", serif;
+  }
+  @media (max-width: 800px){
+
+   .grid-layout{
+    grid-template-columns: 1fr;
+   }
+  
+   .login-form{
+    width: 50%;
+   }
+    .hero{
+      height:95% 
+    }
+
+  }
+  
+    @media (max-width: 600px) {
+
+     .login-form{
+      width: 80%;
+     }
+  
+    }
+  
+  
+  @media (min-width: 800px) {
+    .grid-layout {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  
+  }
+  .jumphigh__logo {
+    height: auto;
+    width: 80%;
+    height: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  
+  
+  /*footer**/
+  
+  footer {
+    background-color: #ffffff;
+    color: #817e7e;
+    text-align: center;
+    margin: 0.8rem auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  .footer-content{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .footer-content a {
+    color: #0051ff;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    color: #ccc;
+  }

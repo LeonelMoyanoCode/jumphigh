@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/librojuego.css">
+    <link rel="icon" type="image/x-icon" href="./multimedia/favicon.png">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Jump High : The Book Game</title>
+    
+</head>
+
+<body>
+    <header class="hero">
+      <nav class="nav__container">
+        
+        <div class="nav__logo">
+          <a href="index.html">
+            <i class="bi bi-arrow-left-square-fill"></i>
+          </a>
+          <a href="index.html">
+            <img src="./multimedia/jumphigh.png" >
+          </a>
+        </div>
+      </nav>
+      
+        <section id="card1"class="card">
+          <h3>Jump High : The Book Game</h3>
+          <h4>Capítulo 1: El Descubrimiento</h4>
+          <img src="./multimedia/escenario.jpg" class="scenario">
+          <div class="text">
+            <p>Un día, mientras JumpHigh compacta basura, descubre una caja metálica sellada con un símbolo que nunca había visto antes. Adentro, parece haber algo importante. Tienes dos opciones:</p>
+          <div class="choices">
+            <button onclick="mostrarCard('card2')" class="btn-A">A: Abrir la caja.</button>
+            <button onclick="mostrarCard('card3')" class="btn-B">B: Guardar la caja.</button>
+          </div>
+          </section>
+
+        <section id="card2" class="card" style="display: none;">
+          <button onclick="mostrarCard('card1')" class="btn-back">Volver</button>
+          <h4>Capítulo 2: Una Bomba</h4>
+          <img src="./multimedia/bomba.jpg" class="scenario">
+          <div class="text">
+              <p>Dentro de la caja, encuentras un extraño dispositivo que comienza a emitir una luz verde. De repente, JumpBelle, tu amiga robot, aparece y te advierte que podría ser algo peligroso. Tienes dos opciones:</p>
+              <div class="choices">
+              <button onclick="mostrarCard('card4')" class="btn-A">A: Darle el dispositivo a JumpBelle</button>
+              <button onclick="mostrarCard('card5')" class="btn-B">B: Intentar activarlo.</button>
+            </div>       
+          </div>
+      </section>
+      
+      <section id="card3" class="card" style="display: none;">
+        <button onclick="mostrarCard('card1')" class="btn-back">Volver</button>
+          <h4>Capítulo 2: Afrontar Decisiones</h4>
+          <img src="./multimedia/jumpBelle.jpg" class="scenario">
+          <div class="text">
+              <p>Decides guardar la caja en tu escondite secreto y volver al trabajo. Más tarde, JumpBelle encuentra la caja y te pregunta por qué la ocultaste. Tienes dos opciones:</p>
+              <div class="choices">
+                <button onclick="mostrarCard('card6')" class="btn-A">A: Mentir a JumpBelle.</button>
+                <button onclick="mostrarCard('card7')" class="btn-B">B: Intentar abrir la caja juntos.</button>
+              </div>     
+            </div>
+      </section>
+
+      <section id="card4" class="card" style="display: none;">
+        <button onclick="mostrarCard('card2')" class="btn-back">Volver</button>
+          <h4>Capítulo 3: Un Dispositivo Misterioso</h4>
+          <img src="./multimedia/bombaAntigua.jpg" class="scenario">
+          <div class="text">
+              <p>JumpBelle examina el dispositivo y descubre que es una bomba antigua diseñada para destruir tecnología avanzada. Sin embargo, usando sus habilidades, logra desactivarla justo a tiempo. Mientras lo hace, activa una grabación secreta que revela la ubicación de un antiguo laboratorio humano. Este descubrimiento los lleva a iniciar una búsqueda para aprender más sobre el pasado de la Tierra.</p>
+            </div>
+            <form id="loginForm" class="login-form" style="display: none;">
+              <h4>Registra tus puntos</h4>
+              <div class="input-group">
+                <label for="username" class="">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+              </div>
+              <div class="input-group">
+                <label for="country">Pais</label>
+                <input type="text" id="country" name="country" required>
+              </div>
+              <div class="input-group">
+                <label for="password">Mail</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+              <div class="input-group">
+                <label for="score">Score:</label>
+                <span id="score">0</span>
+              </div>
+              <div style="width: 100%; text-align: center;">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+      </section>
+
+      <section id="card5" class="card" style="display: none;">
+        <button onclick="mostrarCard('card2')" class="btn-back">Volver</button>
+          <h4>Capítulo 3: Una Fuente De Energia Limpia</h4>
+          <img src="./multimedia/fuenteDeEnergia.jpg" class="scenario">
+          <div class="text">
+              <p>El dispositivo se activa y proyecta un holograma de un humano que explica que el artefacto es una fuente de energía limpia diseñada para restaurar ecosistemas destruidos. Tú y JumpBelle deciden usarlo para reactivar un área devastada, logrando ver el renacer de plantas y vida animal.</p>
+            </div>
+            <form id="loginForm" class="login-form" style="display: none;">
+              <h4>Registra tus puntos</h4>
+              <div class="input-group">
+                <label for="username" class="">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+              </div>
+              <div class="input-group">
+                <label for="country">Pais</label>
+                <input type="text" id="country" name="country" required>
+              </div>
+              <div class="input-group">
+                <label for="password">Mail</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+              <div class="input-group">
+                <label for="score">Score:</label>
+                <span id="score">0</span>
+              </div>
+              <button type="submit">Enviar</button>
+            </form>
+      </section>
+
+      <section id="card6" class="card" style="display: none;">
+        <button onclick="mostrarCard('card3')" class="btn-back">Volver</button>
+          <h4>Capítulo 3: Una Bomba Explota </h4>
+          <img src="./multimedia/bombaAExplotar.jpg" class="scenario">
+          <div class="text">
+              <p>JumpBelle, desconfiada, decide abrir la caja por su cuenta. Dentro encuentra un objeto luminoso que contiene un mensaje holográfico que desvela la ubicación de un tesoro perdido. Sin embargo, al hacerlo sin tu ayuda, activa accidentalmente un sistema de autodestrucción que inutiliza el objeto. Tú y JumpBelle se lamentan por la oportunidad perdida y juran no volver a ocultarse cosas importantes.</p>  
+            </div>
+            <form id="loginForm" class="login-form" style="display: none;">
+              <h4>Registra tus puntos</h4>
+              <div class="input-group">
+                <label for="username" class="">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+              </div>
+              <div class="input-group">
+                <label for="country">Pais</label>
+                <input type="text" id="country" name="country" required>
+              </div>
+              <div class="input-group">
+                <label for="password">Mail</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+              <div class="input-group">
+                <label for="score">Score:</label>
+                <span id="score">0</span>
+              </div>
+              <button type="submit">Enviar</button>
+            </form>
+      </section>
+
+      <section id="card7" class="card" style="display: none;">
+        <button onclick="mostrarCard('card3')" class="btn-back">Volver</button>
+          <h4>Capítulo 3: Un Extraño Mensaje Antiguo.</h4>
+          <img src="./multimedia/lenguajeAntiguo.jpg" class="scenario">
+          <div class="text">
+              <p>Dentro de la caja hay un mensaje antiguo que advierte sobre un peligro inminente. Trabajando juntos, descifran el código y logran evitar una catástrofe que habría afectado a todos los robots. Esto refuerza el vínculo entre tú y JumpBelle, convirtiéndolos en héroes de la historia.</p> 
+            </div>
+            <form id="loginForm" class="login-form" style="display: none;">
+              <h4>Registra tus puntos</h4>
+              <div class="input-group">
+                <label for="username" class="">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+              </div>
+              <div class="input-group">
+                <label for="country">Pais</label>
+                <input type="text" id="country" name="country" required>
+              </div>
+              <div class="input-group">
+                <label for="password">Mail</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+              <div class="input-group">
+                <label for="score">Score:</label>
+                <span id="score">0</span>
+              </div>
+              <button type="submit">Enviar</button>
+            </form>
+      </section>
+
+      
+    </header>
+
+
+<footer>
+  <div class="footer-content">
+    <p>Creado Por: Leonel Moyano</p>
+    <p> © 2024 Copyright: <a href="index.html">JumpHigh</a></p>
+  </div>
+</footer>
+<script  src="./js/librojuego.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" type="image/x-icon" href="./multimedia/favicon.png">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Jump High : The Book Game</title>
+    
+</head>
+
+<body>
+    <header class="hero">
+      <nav class="nav__container">
+        <div class="nav__logo">
+          <a href="index.html">
+            <img src="./multimedia/jumphigh.png" >
+          </a>
+        </div>
+      </nav>
+      
+      <div class="grid-layout">
+        <section class="card ">
+          <h3>¡Bienvenido a Jump High : The Book Game!</h3>
+          <img src="./multimedia/jumphigh.png" class="jumphigh__logo">
+          <h4>El juego es un libro interactivo en el que el protagonista eres tú. Tendrás que leer y elegir entre diferentes opciones, recordando que cada decisión te llevará por un camino distinto. Podrás encontrar varios finales y explorar diversos caminos. Además, siempre tendrás la posibilidad de empezar de nuevo y probar nuevas elecciones.</h4>
+          <a class="button__start" href="librojuego.html">¡Comenzar Aventura!</a>
+        </section>
+    
+        <section class="card">
+          <h3>Mejores Puntajes</h3>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th style="background-color: #007bff;">Posición</th>
+                  <th style="background-color: #007bff;">Jugador</th>
+                  <th style="background-color: #007bff;">Puntaje</th>
+                </tr>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Milei</td>
+                  <td>2500</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Xocas</td>
+                  <td>2300</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>CarlosMasteton</td>
+                  <td>2100</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h3>Comienza tu aventura</h3>
+          <form id="loginForm" class="login-form" >
+            <div class="input-group">
+              <label for="username" class="">Usuario:</label>
+              <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+              <label for="password">Contraseña:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Iniciar Sesión</button>
+            <p id="error-message" style="color: red; display: none;">Usuario incorrecto</p>
+          </form>
+        </section>
+      </div>
+    </header>
+
+
+<footer>
+  <div class="footer-content">
+    <p>Creado Por: Leonel Moyano</p>
+    <p> © 2024 Copyright: <a href="index.html">JumpHigh</a></p>
+  </div>
+</footer>
+<script src="./js/index.js"></script>
+</body>
+</html>

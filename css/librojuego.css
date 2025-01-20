@@ -1,0 +1,260 @@
+
+*{
+    margin:0;
+    box-sizing:border-box;
+  }
+  body{
+  
+    margin: 0 auto;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fjalla+One&display=swap');
+  
+  h3{
+  font-family: "Fjalla One",serif;
+   font-weight: 400;
+   text-shadow: #00a1a1be 2px 2px 4px;
+   margin: 0 auto
+  }
+  
+  h4{
+  font-family: "Cantarell",serif;
+   text-align: center;
+   text-shadow: #00a1a1ef 2px 2px 4px;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-image: url('../multimedia/space.jpg');
+    background-size: cover; 
+    background-position: center;
+    padding-bottom:2rem;
+  }
+  /*nav*/
+  .nav__container {
+    display: flex;
+    justify-content: start; 
+    padding: 1rem;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .nav__logo img {
+   height: 6rem; 
+  }
+  
+  .bi {
+    font-size: 2.5rem;
+    margin: 0 auto;
+    filter:drop-shadow(2px 2px 4px #2f2f2f);
+  }
+  .card {
+    padding: 20px; /* Espacio interior */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 90%; /* Ancho */
+    max-width: 800px;
+    position: relative;
+    margin: 5px auto; /* Centrado */
+    position: relative; /* Posición relativa */
+    box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra brillante */
+    overflow: hidden;
+    z-index: 1;
+  }
+
+
+
+  .scenario {
+    width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+    position: relative;
+    margin: 2rem auto;
+    padding: 0;
+  }
+
+.text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding:20px;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  z-index: 1;
+  text-decoration: none;
+  font-family: Fjalla One;
+  position: center;
+  text-shadow: #00a1a1be 2px 2px 4px;
+}
+a{
+  text-decoration: none;
+  font-family: Fjalla One;
+  margin: auto 20px auto 20px;
+}
+
+.choices {
+  margin: 20px auto 20px auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btn-A, .btn-B, .btn-back {
+  background-color: #0051ff; /* Color de fondo verde */
+  color: #fff; /* Color de texto blanco */
+  padding: 20px 20px; /* Espacio interior */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de mano */
+  font-size: 18px; /* Tamaño de fuente */
+  margin-right: 1rem; /* Espacio derecho */
+  text-decoration: none;
+  box-shadow: #2f2f2f 2px 2px 4px;
+}
+
+.btn-A:hover, .btn-B:hover ,.btn-back:hover {
+  scale: 1.05;
+}
+
+  .card h3 {
+  margin: 20px 5px 20px 5px;
+  
+  }
+  
+  @media (max-width: 480px){
+   .hero{
+    height: 50rem;
+   }
+   .scenario{
+    height: 30rem;
+    margin: 0 auto;
+   }
+   .login-form{
+    height: 450px;
+    width: 300px;
+   }
+  }
+  @media (max-width: 768px){
+   .jumphigh__logo{
+    width: 30rem;
+   }
+
+     .btn-A, .btn-B, .btn-back {
+    height: 5%;
+    margin: 0 auto;
+    position: center;
+    padding: 10px;
+   }
+
+    .login-form{
+      transform: translate(-50%,-60%);
+    }
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    .jumphigh__logo{
+      width: 25rem;
+    }
+    .scenario{
+      height: 100%;
+    }
+    .login-form{
+      transform: translate(-50%,-60%);
+    }
+    .hero{
+      height: 75rem;
+    }
+
+  }
+
+  .jumphigh__logo {
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .login-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   position:fixed;
+   max-width: 1200px;
+   margin: 20px auto; 
+   top: 50%;
+   left: 50%;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   background-color: #ccc;
+   z-index: 1000;
+  }
+  
+  .input-group {
+   margin-bottom: 20px;
+  }
+  
+  .input-group label {
+   display: block;
+   margin-bottom: 10px;
+   font-weight: bold;
+   font-family: "Cantarell",serif;
+  }
+  
+  .input-group input {
+   width: 100%;
+   padding: 5px;
+   border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+   background-color: #0051ff;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   position: center;
+   margin: 0 auto;
+  }
+
+  .button-submit{
+    position: center;
+  }
+  
+  /*footer**/
+  
+  footer {
+    background-color: #ffffff;
+    color: #817e7e;
+    text-align: center;
+    margin: 0.8rem auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  .footer-content{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .footer-content a {
+    color: #0051ff;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    color: #ccc;
+  }
