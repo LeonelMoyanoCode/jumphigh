@@ -1,6 +1,6 @@
 # JUMP HIGH: The Book Game
 
-[¡Visita el sitio web aquí!](https://leonelmoyanocode.github.io/jumphigh/index.html)
+Link : [Jump High : The Book Game](https://leonelmoyanocode.github.io/jumphigh/index.html)
 
 Este proyecto universitario consiste en el desarrollo de un librojuego interactivo compuesto por tres páginas web interconectadas, diseñadas para ser estéticas, intuitivas y totalmente responsivas. Se enfoca en ofrecer una experiencia de usuario envolvente y funcional.
 
