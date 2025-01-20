@@ -19,15 +19,20 @@ El librojuego está dividido en tres partes principales:
 # Página del Librojuego (librojuego.html):
   
 * Historia interactiva con opciones para avanzar en la narrativa.
+  
 * Múltiples capítulos con al menos cuatro finales diferentes.
+
 * Formulario visual para registrar el puntaje del jugador.
   ![Vista previa del librojuego](multimedia/librojuego.jpg)
 
 # Página de Administración (admin.html):
 
 * Panel exclusivo para el administrador con una bienvenida personalizada.
+
 * Sección de ABM de capítulos:
+
 * Alta, baja y modificación de capítulos (formularios solo visuales).
+
 * Navegación para regresar a la página principal.
   ![Vista previa del librojuego](multimedia/adminjuego.jpg)
 
@@ -35,5 +40,7 @@ El librojuego está dividido en tres partes principales:
 # ✨ Tecnologías Utilizadas
 
 * HTML5: Estructura de las páginas.
+
 * CSS3: Estilización y diseño responsivo.
+
 * JavaScript: Funcionalidades interactivas.
